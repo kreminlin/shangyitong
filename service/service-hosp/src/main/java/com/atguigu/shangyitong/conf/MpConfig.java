@@ -1,4 +1,4 @@
-package com.atguigu.shangyitong.shangyitong.config;
+package com.atguigu.shangyitong.conf;
 
 import com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan("com.atguigu.shangyitong.shangyitong.mapper")
+//@MapperScan("com.atguigu.shangyitong.shangyitong.mapper")
 public class MpConfig {
 
     /**
