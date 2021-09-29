@@ -1,102 +1,403 @@
-2021-08-31 15:40:36.706 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 15028 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
-2021-08-31 15:40:36.709 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
-2021-08-31 15:40:36.759 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-08-31 15:40:36.760 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-08-31 15:40:37.674 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-08-31 15:40:37.677 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-08-31 15:40:37.699 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
-2021-08-31 15:40:37.960 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=46eff5dc-a0e3-3ad9-bb9c-98bb06ab8555
-2021-08-31 15:40:38.483 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
-2021-08-31 15:40:38.491 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
-2021-08-31 15:40:38.491 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-08-31 15:40:38.491 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-08-31 15:40:38.585 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-08-31 15:40:38.586 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1825 ms
-2021-08-31 15:40:40.049 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-08-31 15:40:40.172 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2021-08-31 15:40:41.169 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-08-31 15:40:41.906 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-08-31 15:40:42.055 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
-2021-08-31 15:40:42.073 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
-2021-08-31 15:40:42.634 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-08-31 15:40:42.649 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-08-31 15:40:42.675 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-08-31 15:40:42.825 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 7.476 seconds (JVM running for 8.813)
-2021-08-31 15:40:59.756 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 12024 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
-2021-08-31 15:40:59.758 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
-2021-08-31 15:40:59.808 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-08-31 15:40:59.809 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-08-31 15:41:00.833 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-08-31 15:41:00.836 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-08-31 15:41:00.861 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
-2021-08-31 15:41:01.137 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=46eff5dc-a0e3-3ad9-bb9c-98bb06ab8555
-2021-08-31 15:41:01.647 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
-2021-08-31 15:41:01.656 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
-2021-08-31 15:41:01.657 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-08-31 15:41:01.657 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-08-31 15:41:01.757 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-08-31 15:41:01.757 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1948 ms
-2021-08-31 15:41:03.301 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-08-31 15:41:03.421 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2021-08-31 15:41:04.438 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-08-31 15:41:05.191 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-08-31 15:41:05.309 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
-2021-08-31 15:41:05.328 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
-2021-08-31 15:41:05.894 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-08-31 15:41:05.907 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-08-31 15:41:05.934 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-08-31 15:41:06.085 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 7.85 seconds (JVM running for 9.256)
-2021-08-31 15:44:31.829 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-08-31 15:44:31.829 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-08-31 15:44:31.831 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2021-08-31 16:05:15.612 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 13708 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
-2021-08-31 16:05:15.615 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
-2021-08-31 16:05:15.662 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-08-31 16:05:15.662 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-08-31 16:05:16.621 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-08-31 16:05:16.625 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-08-31 16:05:16.653 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
-2021-08-31 16:05:16.935 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=46eff5dc-a0e3-3ad9-bb9c-98bb06ab8555
-2021-08-31 16:05:17.444 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
-2021-08-31 16:05:17.453 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
-2021-08-31 16:05:17.454 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-08-31 16:05:17.454 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-08-31 16:05:17.550 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-08-31 16:05:17.551 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1888 ms
-2021-08-31 16:05:19.133 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-08-31 16:05:19.262 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2021-08-31 16:05:20.346 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-08-31 16:05:21.109 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-08-31 16:05:21.266 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
-2021-08-31 16:05:21.295 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
-2021-08-31 16:05:21.890 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-08-31 16:05:21.905 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-08-31 16:05:21.932 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-08-31 16:05:22.078 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 7.82 seconds (JVM running for 9.026)
-2021-08-31 16:05:52.877 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 8032 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
-2021-08-31 16:05:52.880 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
-2021-08-31 16:05:52.931 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-08-31 16:05:52.932 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-08-31 16:05:53.912 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-08-31 16:05:53.914 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-08-31 16:05:53.940 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
-2021-08-31 16:05:54.237 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=46eff5dc-a0e3-3ad9-bb9c-98bb06ab8555
-2021-08-31 16:05:54.769 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
-2021-08-31 16:05:54.778 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
-2021-08-31 16:05:54.778 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-08-31 16:05:54.779 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-08-31 16:05:54.874 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-08-31 16:05:54.875 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1942 ms
-2021-08-31 16:05:56.421 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-08-31 16:05:56.556 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2021-08-31 16:05:57.661 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-08-31 16:05:58.441 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-08-31 16:05:58.566 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
-2021-08-31 16:05:58.584 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
-2021-08-31 16:05:59.164 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-08-31 16:05:59.180 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-08-31 16:05:59.209 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-08-31 16:05:59.429 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 7.981 seconds (JVM running for 9.307)
-2021-08-31 16:07:13.863 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-08-31 16:07:13.864 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-08-31 16:07:13.867 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-09-29 15:13:36.171 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Starting AspectTestService1Test using Java 1.8.0_261 on DESKTOP-18736GT with PID 8036 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 15:13:36.195 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - The following profiles are active: dev
+2021-09-29 15:13:38.000 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 15:13:38.005 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 15:13:38.046 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-09-29 15:13:38.502 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 15:13:39.853 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 15:13:42.185 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 15:13:43.990 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 15:13:47.136 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 15:13:47.167 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 15:13:47.208 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 15:13:47.588 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Started AspectTestService1Test in 12.876 seconds (JVM running for 15.263)
+2021-09-29 15:13:48.099 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:13:48.109 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 insert()
+2021-09-29 15:13:48.109 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:13:48.178 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 15:13:48.193 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 15:14:28.598 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Starting AspectTestService1Test using Java 1.8.0_261 on DESKTOP-18736GT with PID 12148 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 15:14:28.600 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - The following profiles are active: dev
+2021-09-29 15:14:29.768 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 15:14:29.773 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 15:14:29.805 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-09-29 15:14:30.134 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 15:14:31.110 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 15:14:32.457 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 15:14:33.882 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 15:14:36.741 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 15:14:36.771 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 15:14:36.812 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 15:14:37.057 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Started AspectTestService1Test in 9.837 seconds (JVM running for 11.697)
+2021-09-29 15:14:37.377 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:14:37.392 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 insert()
+2021-09-29 15:14:37.393 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:14:37.393 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:14:37.394 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:14:37.402 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 insert()
+2021-09-29 15:14:37.403 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:14:37.405 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:14:37.406 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:14:37.415 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 insert()
+2021-09-29 15:14:37.415 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:14:37.416 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:14:37.416 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:14:37.417 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 update()
+2021-09-29 15:14:37.425 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:14:37.426 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:14:37.427 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:14:37.427 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 update()
+2021-09-29 15:14:37.427 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:14:37.428 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:14:37.429 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:14:37.430 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 update()
+2021-09-29 15:14:37.430 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:14:37.431 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:14:37.431 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:14:37.431 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 delete()
+2021-09-29 15:14:37.431 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:14:37.432 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:14:37.432 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:14:37.432 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 delete()
+2021-09-29 15:14:37.432 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:14:37.433 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:14:37.433 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:14:37.433 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 delete()
+2021-09-29 15:14:37.434 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:14:37.434 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:14:37.434 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:14:37.435 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 find()
+2021-09-29 15:14:37.435 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:14:37.436 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:14:37.436 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:14:37.437 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 find()
+2021-09-29 15:14:37.437 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:14:37.437 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:14:37.438 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:14:37.438 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 find()
+2021-09-29 15:14:37.442 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------返回通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:14:37.443 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:14:37.514 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 15:14:37.532 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 15:16:41.279 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Starting AspectTestService1Test using Java 1.8.0_261 on DESKTOP-18736GT with PID 13748 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 15:16:41.280 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - The following profiles are active: dev
+2021-09-29 15:16:42.456 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 15:16:42.463 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 15:16:42.500 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-09-29 15:16:42.848 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 15:16:44.192 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 15:16:45.715 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 15:16:47.428 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 15:16:50.362 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 15:16:50.398 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 15:16:50.442 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 15:16:50.701 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Started AspectTestService1Test in 11.053 seconds (JVM running for 13.104)
+2021-09-29 15:16:51.014 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:16:51.021 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 insert()
+2021-09-29 15:16:51.021 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:16:51.022 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:16:51.073 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 15:16:51.086 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 15:19:43.516 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Starting AspectTestService1Test using Java 1.8.0_261 on DESKTOP-18736GT with PID 9392 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 15:19:43.519 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - The following profiles are active: dev
+2021-09-29 15:19:44.652 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 15:19:44.656 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 15:19:44.684 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-09-29 15:19:44.996 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 15:19:46.083 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 15:19:47.389 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 15:19:48.886 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 15:19:51.757 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 15:19:51.787 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 15:19:51.823 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 15:19:52.064 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Started AspectTestService1Test in 9.835 seconds (JVM running for 11.413)
+2021-09-29 15:19:52.436 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:19:52.441 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 insert()
+2021-09-29 15:19:52.442 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())  人为抛出异常！
+2021-09-29 15:19:52.443 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:19:52.500 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 15:19:52.515 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 15:21:45.772 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Starting AspectTestService1Test using Java 1.8.0_261 on DESKTOP-18736GT with PID 7736 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 15:21:45.774 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - The following profiles are active: dev
+2021-09-29 15:21:46.903 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 15:21:46.907 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 15:21:46.932 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-09-29 15:21:47.227 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 15:21:48.179 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 15:21:49.486 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 15:21:50.960 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 15:21:53.721 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 15:21:53.751 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 15:21:53.788 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 15:21:54.014 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Started AspectTestService1Test in 9.613 seconds (JVM running for 11.138)
+2021-09-29 15:21:54.373 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:21:54.381 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 insert()
+2021-09-29 15:21:54.382 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:21:54.382 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:21:54.386 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 insert()
+2021-09-29 15:21:54.386 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:21:54.387 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:21:54.390 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 insert()
+2021-09-29 15:21:54.390 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:21:54.391 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:21:54.391 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 update()
+2021-09-29 15:21:54.391 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:21:54.391 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:21:54.391 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 update()
+2021-09-29 15:21:54.392 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:21:54.392 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:21:54.392 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 update()
+2021-09-29 15:21:54.392 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:21:54.393 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:21:54.393 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 delete()
+2021-09-29 15:21:54.394 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:21:54.395 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:21:54.395 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 delete()
+2021-09-29 15:21:54.395 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:21:54.396 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:21:54.396 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 delete()
+2021-09-29 15:21:54.397 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:21:54.397 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:21:54.398 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 find()
+2021-09-29 15:21:54.398 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:21:54.398 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:21:54.399 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 find()
+2021-09-29 15:21:54.399 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:21:54.399 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:21:54.400 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 find()
+2021-09-29 15:21:54.400 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:21:54.447 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 15:21:54.461 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 15:30:28.698 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Starting AspectTestService1Test using Java 1.8.0_261 on DESKTOP-18736GT with PID 7388 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 15:30:28.699 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - The following profiles are active: dev
+2021-09-29 15:30:29.854 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 15:30:29.859 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 15:30:29.889 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-09-29 15:30:30.184 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 15:30:31.098 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 15:30:32.420 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 15:30:34.028 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 15:30:37.054 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 15:30:37.082 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 15:30:37.119 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 15:30:37.383 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Started AspectTestService1Test in 9.978 seconds (JVM running for 11.51)
+2021-09-29 15:30:37.677 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:30:37.678 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:30:37.678 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:30:37.678 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:30:37.679 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:30:37.679 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:30:37.680 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:30:37.680 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:30:37.680 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:30:37.681 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:30:37.681 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:30:37.681 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:30:37.728 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 15:30:37.743 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 15:44:33.335 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Starting AspectTestService1Test using Java 1.8.0_261 on DESKTOP-18736GT with PID 11576 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 15:44:33.337 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - The following profiles are active: dev
+2021-09-29 15:44:34.482 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 15:44:34.488 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 15:44:34.518 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-09-29 15:44:34.836 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 15:44:35.777 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 15:44:37.096 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 15:44:38.730 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 15:44:41.730 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 15:44:41.758 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 15:44:41.792 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 15:44:42.009 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Started AspectTestService1Test in 9.985 seconds (JVM running for 11.429)
+2021-09-29 15:44:42.293 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:44:42.294 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:44:42.299 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 insert()
+2021-09-29 15:44:42.300 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:44:42.301 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:44:42.301 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:44:42.301 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:44:42.305 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 insert()
+2021-09-29 15:44:42.305 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:44:42.306 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:44:42.307 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:44:42.307 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:44:42.313 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 insert()
+2021-09-29 15:44:42.313 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:44:42.313 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:44:42.314 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:44:42.314 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:44:42.314 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 update()
+2021-09-29 15:44:42.314 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:44:42.315 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:44:42.315 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:44:42.316 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:44:42.316 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 update()
+2021-09-29 15:44:42.317 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:44:42.317 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:44:42.317 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:44:42.317 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:44:42.318 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 update()
+2021-09-29 15:44:42.318 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:44:42.318 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:44:42.319 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:44:42.319 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:44:42.319 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 delete()
+2021-09-29 15:44:42.320 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:44:42.320 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:44:42.320 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:44:42.321 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:44:42.321 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 delete()
+2021-09-29 15:44:42.322 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:44:42.323 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:44:42.324 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:44:42.325 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:44:42.325 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 delete()
+2021-09-29 15:44:42.325 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:44:42.326 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:44:42.326 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:44:42.326 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:44:42.326 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 find()
+2021-09-29 15:44:42.327 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:44:42.327 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:44:42.328 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:44:42.329 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:44:42.329 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 find()
+2021-09-29 15:44:42.329 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:44:42.329 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:44:42.330 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:44:42.330 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------前置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:44:42.330 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 find()
+2021-09-29 15:44:42.330 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - -----------后置通知----------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:44:42.331 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:44:42.376 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 15:44:42.387 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 15:45:53.651 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Starting AspectTestService1Test using Java 1.8.0_261 on DESKTOP-18736GT with PID 10996 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 15:45:53.653 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - The following profiles are active: dev
+2021-09-29 15:45:54.809 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 15:45:54.813 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 15:45:54.841 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-09-29 15:45:55.158 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 15:45:56.109 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 15:45:57.394 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 15:45:58.946 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 15:46:01.811 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 15:46:01.837 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 15:46:01.868 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 15:46:02.081 [main] INFO  c.a.shangyitong.service.AspectTestService1Test - Started AspectTestService1Test in 9.806 seconds (JVM running for 11.202)
+2021-09-29 15:46:02.355 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:46:02.361 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 insert()
+2021-09-29 15:46:02.361 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.insert())
+2021-09-29 15:46:02.362 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:46:02.365 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 insert()
+2021-09-29 15:46:02.366 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.insert())
+2021-09-29 15:46:02.366 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:46:02.370 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 insert()
+2021-09-29 15:46:02.370 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.insert())
+2021-09-29 15:46:02.371 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:46:02.371 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 update()
+2021-09-29 15:46:02.371 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.update())
+2021-09-29 15:46:02.372 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:46:02.372 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 update()
+2021-09-29 15:46:02.373 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.update())
+2021-09-29 15:46:02.373 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:46:02.373 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 update()
+2021-09-29 15:46:02.374 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.update())
+2021-09-29 15:46:02.374 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:46:02.374 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 delete()
+2021-09-29 15:46:02.375 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.delete())
+2021-09-29 15:46:02.375 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:46:02.376 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 delete()
+2021-09-29 15:46:02.376 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.delete())
+2021-09-29 15:46:02.376 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:46:02.377 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 delete()
+2021-09-29 15:46:02.377 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.delete())
+2021-09-29 15:46:02.377 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:46:02.377 [main] INFO  com.atguigu.shangyitong.service.AspectTestService1 - this is AspectTestService1 find()
+2021-09-29 15:46:02.378 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService1.find())
+2021-09-29 15:46:02.378 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:46:02.378 [main] INFO  com.atguigu.shangyitong.service.AspectTestService2 - this is AspectTestService2 find()
+2021-09-29 15:46:02.379 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService2.find())
+2021-09-29 15:46:02.379 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:46:02.379 [main] INFO  com.atguigu.shangyitong.service.AspectTestService3 - this is AspectTestService3 find()
+2021-09-29 15:46:02.379 [main] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.AspectTestService3.find())
+2021-09-29 15:46:02.422 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 15:46:02.434 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 15:58:36.553 [main] INFO  com.atguigu.shangyitong.log.LogTest - Starting LogTest using Java 1.8.0_261 on DESKTOP-18736GT with PID 8652 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 15:58:36.560 [main] INFO  com.atguigu.shangyitong.log.LogTest - The following profiles are active: dev
+2021-09-29 15:58:37.665 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 15:58:37.674 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 15:58:37.720 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-09-29 15:58:38.057 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 15:58:39.043 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 15:58:40.350 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 15:58:41.895 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 15:58:44.665 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 15:58:44.690 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 15:58:44.723 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 15:58:44.917 [main] INFO  com.atguigu.shangyitong.log.LogTest - Started LogTest in 9.857 seconds (JVM running for 11.173)
+2021-09-29 15:58:45.178 [main] INFO  com.atguigu.shangyitong.log.LogTest - 这是info级别的日志
+2021-09-29 15:58:45.227 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 15:58:45.242 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 16:04:33.720 [main] INFO  com.atguigu.shangyitong.log.LogTest - Starting LogTest using Java 1.8.0_261 on DESKTOP-18736GT with PID 15992 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 16:04:33.731 [main] INFO  com.atguigu.shangyitong.log.LogTest - The following profiles are active: dev
+2021-09-29 16:04:35.299 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 16:04:35.303 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 16:04:35.344 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-09-29 16:04:35.799 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 16:04:37.069 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 16:04:38.419 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 16:04:40.055 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 16:04:43.325 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 16:04:43.369 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 16:04:43.402 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 16:04:43.621 [main] INFO  com.atguigu.shangyitong.log.LogTest - Started LogTest in 11.217 seconds (JVM running for 12.991)
+2021-09-29 16:04:44.097 [main] INFO  com.atguigu.shangyitong.log.LogTest - 这是info级别的日志
+2021-09-29 16:04:44.140 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 16:04:44.151 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 16:05:02.735 [main] INFO  com.atguigu.shangyitong.log.LogTest - Starting LogTest using Java 1.8.0_261 on DESKTOP-18736GT with PID 5580 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 16:05:02.738 [main] INFO  com.atguigu.shangyitong.log.LogTest - The following profiles are active: dev
+2021-09-29 16:05:04.122 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 16:05:04.128 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 16:05:04.178 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2021-09-29 16:05:04.517 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 16:05:05.661 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 16:05:07.113 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 16:05:09.004 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 16:05:12.356 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 16:05:12.386 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 16:05:12.428 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 16:05:12.683 [main] INFO  com.atguigu.shangyitong.log.LogTest - Started LogTest in 11.246 seconds (JVM running for 14.297)
+2021-09-29 16:05:13.092 [main] INFO  com.atguigu.shangyitong.log.LogTest - 这是info级别的日志
+2021-09-29 16:05:13.148 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 16:05:13.163 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 16:05:28.945 [main] INFO  com.atguigu.shangyitong.log.LogTest - Starting LogTest using Java 1.8.0_261 on DESKTOP-18736GT with PID 15768 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 16:05:28.947 [main] INFO  com.atguigu.shangyitong.log.LogTest - The following profiles are active: dev
+2021-09-29 16:05:30.350 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 16:05:30.354 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 16:05:30.392 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-09-29 16:05:30.773 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 16:05:31.886 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 16:05:33.274 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 16:05:35.044 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 16:05:38.259 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 16:05:38.292 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 16:05:38.344 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 16:05:38.604 [main] INFO  com.atguigu.shangyitong.log.LogTest - Started LogTest in 11.055 seconds (JVM running for 12.922)
+2021-09-29 16:05:38.948 [main] INFO  com.atguigu.shangyitong.log.LogTest - 这是info级别的日志
+2021-09-29 16:10:10.758 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 16:10:10.779 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-29 16:12:26.152 [main] INFO  com.atguigu.shangyitong.log.LogTest - Starting LogTest using Java 1.8.0_261 on DESKTOP-18736GT with PID 15936 (started by asus in F:\shangyitong\service\service-hosp)
+2021-09-29 16:12:26.154 [main] INFO  com.atguigu.shangyitong.log.LogTest - The following profiles are active: dev
+2021-09-29 16:12:27.287 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-29 16:12:27.292 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-29 16:12:27.326 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-09-29 16:12:27.649 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=17d2ab62-97c5-3d54-8674-0b2c0f569084
+2021-09-29 16:12:28.619 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-29 16:12:29.895 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-29 16:12:31.492 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-29 16:12:34.294 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-29 16:12:34.318 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-29 16:12:34.351 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-29 16:12:34.561 [main] INFO  com.atguigu.shangyitong.log.LogTest - Started LogTest in 9.773 seconds (JVM running for 11.108)
+2021-09-29 16:12:34.825 [main] INFO  com.atguigu.shangyitong.log.LogTest - 这是info级别的日志
+2021-09-29 16:12:34.868 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-29 16:12:34.882 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

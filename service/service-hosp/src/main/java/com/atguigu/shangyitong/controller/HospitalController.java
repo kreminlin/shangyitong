@@ -1,26 +1,29 @@
 package com.atguigu.shangyitong.controller;
 
 
+import com.atguigu.shangyitong.annotation.AdminOnly;
 import com.atguigu.shangyitong.entity.HospitalSet;
 import com.atguigu.shangyitong.service.HospitalSetService;
 import com.atguigu.shangyitong.vo.HospitalSetVo;
-import com.atguigu.yygh.exception.YyghException;
 import com.atguigu.yygh.result.Result;
-import com.atguigu.yygh.utils.MD5;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.models.auth.In;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-
+import javax.validation.Valid;
 import java.util.List;
-import java.util.Random;
 
 @RestController
 @RequestMapping(value = "/hosp")
@@ -30,6 +33,7 @@ public class HospitalController {
     private HospitalSetService hospitalSetService;
 
     //查询医院所有信息
+    @AdminOnly
     @ApiOperation(value = "查询所有医院信息")
     @GetMapping(value = "/findAll")
     public Result findAll() {
@@ -74,20 +78,25 @@ public class HospitalController {
     //添加医院设置
     @ApiOperation(value = "添加医院设置")
     @PostMapping(value = "/saveHospitalSet")
-    public Result saveHospitalSet(@RequestBody HospitalSet hospitalSet) {
+    public String saveHospitalSet(@RequestBody @Valid HospitalSet hospitalSet, BindingResult bindingResult) {
         //设置状态 1使用，0不能使用
-        hospitalSet.setStatus(1);
-        //签名密钥
-        Random random = new Random();
-        hospitalSet.setSignKey(MD5.encrypt(System.currentTimeMillis() + "" + random.nextInt(1000)));
+//        hospitalSet.setStatus(1);
+//        //签名密钥
+//        Random random = new Random();
+//        hospitalSet.setSignKey(MD5.encrypt(System.currentTimeMillis() + "" + random.nextInt(1000)));
 
-        //调用service
-        boolean save = hospitalSetService.save(hospitalSet);
-        if (save) {
-            return Result.ok();
-        } else {
-            return Result.fail();
+        if(bindingResult.hasErrors()){
+            return bindingResult.getFieldError().getDefaultMessage();
         }
+        //调用service
+//        boolean save = hospitalSetService.save(hospitalSet);
+//        if (save) {
+//            return Result.ok();
+//        } else {
+//            return Result.fail();
+//        }
+        return "ok";
+
     }
 
     //修改医院设置

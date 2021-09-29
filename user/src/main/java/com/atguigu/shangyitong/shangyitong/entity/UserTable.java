@@ -10,7 +10,7 @@ import java.util.Date;
 @Data
 public class UserTable {
 
-  @TableId(value = "id",type = IdType.ASSIGN_ID)
+  @TableId(value = "id",type = IdType.AUTO)
   private long id;
   private String name;
   private long age;

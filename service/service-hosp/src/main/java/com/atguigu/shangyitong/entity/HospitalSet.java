@@ -8,6 +8,9 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 @TableName(value = "hospital_set")
@@ -15,8 +18,9 @@ import java.util.Date;
 @ApiModel(description = "医院设置")
 public class HospitalSet  {
 
-  @TableId(value = "id",type = IdType.ASSIGN_ID)
+  @TableId(value = "id",type = IdType.AUTO)
   private long id;
+  @NotBlank(message = "名称不能为空")
   @ApiModelProperty(value = "医院名称")
   @TableField("hosname")
   private String hosname;
@@ -30,6 +34,9 @@ public class HospitalSet  {
   private String contactsName;
   @ApiModelProperty(value = "联系人电话")
   private String contactsPhone;
+
+  @NotNull(message = "状态不能为空")
+  @Min(value = 12,message = "状态不嫩为0")
   @ApiModelProperty(value = "状态")
   private long status;
   @ApiModelProperty(value = "创建时间")

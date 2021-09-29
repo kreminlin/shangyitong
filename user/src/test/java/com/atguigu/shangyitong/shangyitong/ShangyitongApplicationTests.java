@@ -32,20 +32,20 @@ class ShangyitongApplicationTests {
     @Test
     public void testSelectPage(){
         Page<UserTable> page = new Page(1,3);
-        Page<UserTable> userpage = userMapper.selectPage(page,null);
-        long pages = userpage.getPages();//获取总页数
-        long current = userpage.getCurrent();//获取当前页
-        List<UserTable> records = userpage.getRecords();//查询数据集合
-        long total = userpage.getTotal(); //总记录数
-        boolean hasNext = userpage.hasNext();//下一页
-        boolean hasPrivious = userpage.hasPrevious();//上一页
+//        Page<UserTable> userpage = userMapper.selectPage(page,null);
+//        long pages = userpage.getPages();//获取总页数
+//        long current = userpage.getCurrent();//获取当前页
+//        List<UserTable> records = userpage.getRecords();//查询数据集合
+//        long total = userpage.getTotal(); //总记录数
+//        boolean hasNext = userpage.hasNext();//下一页
+//        boolean hasPrivious = userpage.hasPrevious();//上一页
 
-        System.out.println(pages);
-        System.out.println(current);
-        System.out.println(records);
-        System.out.println(total);
-        System.out.println(hasNext);
-        System.out.println(hasPrivious);
+//        System.out.println(pages);
+//        System.out.println(current);
+//        System.out.println(records);
+//        System.out.println(total);
+//        System.out.println(hasNext);
+//        System.out.println(hasPrivious);
     }
 
     //多个id批量查询

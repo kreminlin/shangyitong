@@ -1,1 +1,1 @@
-2021-08-31 15:47:36.996 [http-nio-8202-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException]
+2021-09-29 16:10:10.668 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m37s284ms322µs200ns).
