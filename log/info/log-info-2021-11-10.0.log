@@ -1,0 +1,645 @@
+2021-11-10 14:09:27.166 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:09:27.176 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:09:27.276 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-10 14:09:27.276 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-10 14:09:29.377 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:09:29.387 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:09:29.417 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:09:29.817 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-10 14:09:30.878 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:09:30.887 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:09:30.887 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:09:30.887 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:09:31.077 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:09:31.077 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3791 ms
+2021-11-10 14:09:33.937 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-10 14:09:35.592 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-10 14:09:37.006 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 14:09:37.464 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 14:09:40.070 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:09:40.127 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 14:09:40.732 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 14:09:40.794 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 14:09:40.834 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 14:09:41.565 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 16.634 seconds (JVM running for 24.006)
+2021-11-10 14:12:05.440 [Thread-32] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-10 14:12:05.485 [Thread-32] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-10 14:12:07.695 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:12:07.696 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:12:09.656 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:12:09.656 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:12:09.664 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:12:09.836 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3501e781-8057-3d9e-848e-295eede2b102
+2021-11-10 14:12:10.306 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:12:10.307 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:12:10.307 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:12:10.307 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:12:10.360 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:12:10.360 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2657 ms
+2021-11-10 14:12:10.564 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-11-10 14:12:10.591 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-11-10 14:12:11.816 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 14:12:12.425 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 14:12:15.681 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:12:15.683 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 14:12:17.147 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 14:12:17.149 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 14:12:17.156 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 14:12:17.232 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 11.25 seconds (JVM running for 179.674)
+2021-11-10 14:12:17.237 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 14:24:49.509 [Thread-48] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2021-11-10 14:24:49.523 [Thread-48] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2021-11-10 14:24:51.152 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:24:51.152 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:24:51.799 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:24:51.799 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:24:51.804 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:24:51.856 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-10 14:24:52.057 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:24:52.059 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:24:52.060 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:24:52.060 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:24:52.079 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:24:52.079 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 924 ms
+2021-11-10 14:24:52.161 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2021-11-10 14:24:52.182 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2021-11-10 14:24:52.825 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 14:24:53.070 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 14:24:54.350 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:24:54.352 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 14:24:54.872 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 14:24:54.873 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 14:24:54.881 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 14:24:54.957 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 4.929 seconds (JVM running for 937.399)
+2021-11-10 14:24:54.961 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 14:40:34.098 [Thread-54] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2021-11-10 14:40:34.114 [Thread-54] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2021-11-10 14:40:35.436 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:40:35.436 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:40:36.212 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:40:36.213 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:40:36.226 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:40:36.283 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-10 14:40:36.487 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:40:36.488 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:40:36.488 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:40:36.489 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:40:36.509 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:40:36.509 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1069 ms
+2021-11-10 14:40:36.605 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2021-11-10 14:40:36.630 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2021-11-10 14:40:36.816 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2021-11-10 14:40:36.827 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2021-11-10 14:40:36.828 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-11-10 14:41:01.635 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:41:01.636 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:41:02.328 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:41:02.329 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:41:02.341 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:41:02.510 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=4e3201d3-c40f-38a6-980f-4e76755f2f76
+2021-11-10 14:41:02.929 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:41:02.930 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:41:02.930 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:41:02.930 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:41:02.949 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:41:02.952 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1313 ms
+2021-11-10 14:41:03.032 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2021-11-10 14:41:03.044 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2021-11-10 14:41:03.161 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2021-11-10 14:41:03.187 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2021-11-10 14:41:03.188 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-11-10 14:41:25.032 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:41:25.032 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:41:25.922 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:41:25.923 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:41:25.933 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:41:26.150 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=63c4e241-7fb6-3492-b7f4-a4f484d0610d
+2021-11-10 14:41:26.341 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:41:26.342 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:41:26.342 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:41:26.343 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:41:26.360 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:41:26.361 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1324 ms
+2021-11-10 14:41:26.523 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2021-11-10 14:41:26.537 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2021-11-10 14:41:27.923 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 14:41:28.316 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 14:41:30.771 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:41:30.772 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 14:41:31.359 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 14:41:31.360 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 14:41:31.366 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 14:41:31.414 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 7.205 seconds (JVM running for 1933.856)
+2021-11-10 14:41:31.418 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 14:42:33.147 [Thread-60] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2021-11-10 14:42:33.165 [Thread-60] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2021-11-10 14:42:34.706 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:42:34.707 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:42:35.334 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:42:35.334 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:42:35.340 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:42:35.392 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=18039574-5c55-3240-b857-f4823ad20086
+2021-11-10 14:42:35.563 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:42:35.563 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:42:35.564 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:42:35.564 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:42:35.582 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:42:35.583 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 872 ms
+2021-11-10 14:42:35.658 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2021-11-10 14:42:35.674 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2021-11-10 14:42:36.370 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 14:42:36.639 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 14:42:37.832 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:42:37.835 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 14:42:38.378 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 14:42:38.379 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 14:42:38.383 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 14:42:38.439 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 4.753 seconds (JVM running for 2000.881)
+2021-11-10 14:42:38.442 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 14:47:06.553 [Thread-74] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2021-11-10 14:47:06.589 [Thread-74] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2021-11-10 14:47:08.130 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:47:08.130 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:47:09.065 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:47:09.065 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:47:09.074 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:47:09.147 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=18039574-5c55-3240-b857-f4823ad20086
+2021-11-10 14:47:09.367 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:47:09.368 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:47:09.368 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:47:09.368 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:47:09.388 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:47:09.389 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1256 ms
+2021-11-10 14:47:09.504 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2021-11-10 14:47:09.533 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2021-11-10 14:47:10.767 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 14:47:11.054 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 14:47:12.153 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:47:12.155 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 14:47:12.702 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 14:47:12.702 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 14:47:12.706 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 14:47:12.754 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 5.589 seconds (JVM running for 2275.196)
+2021-11-10 14:47:12.758 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 14:48:08.775 [Thread-80] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2021-11-10 14:48:08.796 [Thread-80] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2021-11-10 14:48:09.911 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:48:09.912 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:48:10.412 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:48:10.412 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:48:10.419 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:48:10.471 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=18039574-5c55-3240-b857-f4823ad20086
+2021-11-10 14:48:10.673 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:48:10.674 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:48:10.674 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:48:10.674 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:48:10.693 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:48:10.693 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 777 ms
+2021-11-10 14:48:10.779 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2021-11-10 14:48:10.795 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2021-11-10 14:48:11.909 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 14:48:12.333 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 14:48:13.844 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:48:13.845 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 14:48:14.435 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 14:48:14.436 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 14:48:14.441 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 14:48:14.498 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 5.249 seconds (JVM running for 2336.94)
+2021-11-10 14:48:14.500 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 14:50:36.453 [Thread-86] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2021-11-10 14:50:36.468 [Thread-86] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2021-11-10 14:50:37.395 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:50:37.396 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:50:37.809 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:50:37.810 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:50:37.824 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:50:37.906 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-10 14:50:38.340 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:50:38.340 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:50:38.341 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:50:38.341 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:50:38.378 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:50:38.380 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 980 ms
+2021-11-10 14:50:38.494 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2021-11-10 14:50:38.509 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2021-11-10 14:50:39.528 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 14:50:40.079 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 14:50:41.951 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:50:41.952 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 14:50:43.037 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 14:50:43.038 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 14:50:43.042 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 14:50:43.108 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 6.398 seconds (JVM running for 2485.549)
+2021-11-10 14:50:43.118 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 14:52:20.829 [Thread-92] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2021-11-10 14:52:20.844 [Thread-92] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2021-11-10 14:52:22.135 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:52:22.135 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:52:22.741 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:52:22.741 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:52:22.747 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:52:22.817 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-10 14:52:23.088 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:52:23.089 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:52:23.089 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:52:23.089 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:52:23.117 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:52:23.118 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 976 ms
+2021-11-10 14:52:23.259 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2021-11-10 14:52:23.281 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2021-11-10 14:52:23.969 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 14:52:24.265 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 14:52:25.924 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:52:25.928 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 14:52:26.440 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 14:52:26.442 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 14:52:26.448 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 14:52:26.491 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 5.299 seconds (JVM running for 2588.933)
+2021-11-10 14:52:26.496 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 14:59:40.637 [Thread-98] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2021-11-10 14:59:40.651 [Thread-98] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2021-11-10 14:59:41.811 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 14:59:41.811 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 14:59:43.332 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 14:59:43.332 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 14:59:43.338 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-11-10 14:59:43.421 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-10 14:59:43.672 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 14:59:43.672 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:59:43.673 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 14:59:43.673 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 14:59:43.696 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 14:59:43.697 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1879 ms
+2021-11-10 14:59:43.766 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+2021-11-10 14:59:43.782 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+2021-11-10 14:59:44.431 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 14:59:44.792 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 14:59:46.102 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 14:59:46.103 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 14:59:46.626 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 14:59:46.626 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 14:59:46.631 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 14:59:46.674 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 5.848 seconds (JVM running for 3029.116)
+2021-11-10 14:59:46.676 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 15:02:25.197 [Thread-104] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+2021-11-10 15:02:25.208 [Thread-104] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+2021-11-10 15:02:26.409 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4472 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 15:02:26.409 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 15:02:27.405 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 15:02:27.557 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 15:02:27.562 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-11-10 15:02:27.628 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-10 15:02:27.842 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 15:02:27.842 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:02:27.842 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 15:02:27.843 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 15:02:27.866 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 15:02:27.868 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1447 ms
+2021-11-10 15:02:27.947 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+2021-11-10 15:02:27.969 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+2021-11-10 15:02:28.969 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 15:02:29.785 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 15:02:31.716 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:02:31.718 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 15:02:32.237 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 15:02:32.238 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 15:02:32.241 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 15:02:32.288 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 6.8 seconds (JVM running for 3194.73)
+2021-11-10 15:02:32.291 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 15:35:16.714 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 14916 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 15:35:16.736 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 15:35:16.803 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-10 15:35:16.804 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-10 15:35:19.141 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 15:35:19.151 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 15:35:19.246 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2021-11-10 15:35:19.847 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=18039574-5c55-3240-b857-f4823ad20086
+2021-11-10 15:35:21.270 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 15:35:21.296 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:35:21.297 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 15:35:21.297 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 15:35:21.465 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 15:35:21.466 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4661 ms
+2021-11-10 15:35:21.792 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-10 15:35:22.714 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-10 15:35:24.671 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 15:35:25.024 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 15:35:26.653 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:35:26.677 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 15:35:27.299 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 15:35:27.325 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 15:35:27.381 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 15:35:27.648 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 12.622 seconds (JVM running for 14.741)
+2021-11-10 15:36:05.254 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-10 15:36:05.254 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-10 15:36:05.257 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-11-10 15:36:21.620 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 15:36:22.949 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 15:39:08.249 [Thread-26] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-10 15:39:08.273 [Thread-26] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-10 15:39:09.299 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 14916 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 15:39:09.300 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 15:39:09.749 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 15:39:09.749 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 15:39:09.756 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-11-10 15:39:09.813 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=18039574-5c55-3240-b857-f4823ad20086
+2021-11-10 15:39:10.009 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 15:39:10.010 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:39:10.010 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 15:39:10.010 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 15:39:10.151 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 15:39:10.151 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 847 ms
+2021-11-10 15:39:10.366 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-11-10 15:39:10.396 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-11-10 15:39:11.562 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 15:39:11.802 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 15:39:13.001 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:39:13.003 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 15:39:13.531 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 15:39:13.532 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 15:39:13.537 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 15:39:13.598 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 4.979 seconds (JVM running for 240.691)
+2021-11-10 15:39:13.601 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 15:39:14.209 [Thread-42] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2021-11-10 15:39:14.221 [Thread-42] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2021-11-10 15:39:15.204 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 14916 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 15:39:15.204 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 15:39:16.174 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 15:39:16.174 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 15:39:16.200 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2021-11-10 15:39:16.281 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=18039574-5c55-3240-b857-f4823ad20086
+2021-11-10 15:39:16.533 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 15:39:16.534 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:39:16.535 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 15:39:16.536 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 15:39:16.574 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 15:39:16.575 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1367 ms
+2021-11-10 15:39:16.686 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2021-11-10 15:39:16.707 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2021-11-10 15:39:17.608 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 15:39:17.906 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 15:39:19.191 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:39:19.192 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 15:39:19.803 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 15:39:19.804 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 15:39:19.809 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 15:39:19.858 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 5.365 seconds (JVM running for 246.951)
+2021-11-10 15:39:19.861 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 15:39:24.405 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-10 15:39:24.406 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-10 15:39:24.408 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-10 15:39:24.411 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 15:39:24.416 [http-nio-8202-exec-1] INFO  c.a.shangyitong.service.impl.RedisServiceImpl - this 1234::321::123
+2021-11-10 15:39:24.435 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 15:40:57.239 [Thread-48] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2021-11-10 15:40:57.249 [Thread-48] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2021-11-10 15:40:58.240 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 14916 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 15:40:58.241 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 15:40:58.817 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 15:40:58.818 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 15:40:58.824 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-11-10 15:40:58.868 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3501e781-8057-3d9e-848e-295eede2b102
+2021-11-10 15:40:59.057 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 15:40:59.058 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:40:59.058 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 15:40:59.058 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 15:40:59.153 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 15:40:59.155 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 910 ms
+2021-11-10 15:40:59.367 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2021-11-10 15:40:59.399 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2021-11-10 15:41:00.066 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 15:41:00.384 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 15:41:02.490 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:41:02.492 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 15:41:04.231 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 15:41:04.233 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 15:41:04.239 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 15:41:04.332 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 6.849 seconds (JVM running for 351.424)
+2021-11-10 15:41:04.334 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 15:41:48.596 [Thread-58] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2021-11-10 15:41:48.612 [Thread-58] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2021-11-10 15:41:49.958 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 14916 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 15:41:49.958 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 15:41:50.481 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 15:41:50.482 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 15:41:50.489 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2021-11-10 15:41:50.550 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=18039574-5c55-3240-b857-f4823ad20086
+2021-11-10 15:41:50.766 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 15:41:50.767 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:41:50.767 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 15:41:50.767 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 15:41:50.793 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 15:41:50.793 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 832 ms
+2021-11-10 15:41:50.857 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2021-11-10 15:41:50.880 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2021-11-10 15:41:51.702 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 15:41:51.950 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 15:41:53.202 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 15:41:53.203 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 15:41:53.748 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 15:41:53.749 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 15:41:53.753 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 15:41:53.792 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 4.911 seconds (JVM running for 400.884)
+2021-11-10 15:41:53.794 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 15:42:02.447 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-10 15:42:02.448 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-10 15:42:02.452 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-11-10 15:42:02.456 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(void com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 15:42:02.463 [http-nio-8202-exec-1] INFO  c.a.shangyitong.service.impl.RedisServiceImpl - this 1234::321::123
+2021-11-10 15:42:02.502 [http-nio-8202-exec-1] INFO  c.a.shangyitong.service.impl.RedisServiceImpl - this 1
+2021-11-10 15:42:02.502 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(void com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 16:03:48.848 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 16380 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 16:03:48.853 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 16:03:48.917 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-10 16:03:48.917 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-10 16:03:51.895 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 16:03:51.899 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 16:03:51.928 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-11-10 16:03:52.428 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=18039574-5c55-3240-b857-f4823ad20086
+2021-11-10 16:03:54.047 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 16:03:54.072 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:03:54.073 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 16:03:54.078 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 16:03:54.394 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 16:03:54.396 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5477 ms
+2021-11-10 16:03:54.887 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-10 16:03:55.927 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-10 16:03:57.664 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 16:03:58.475 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 16:04:00.684 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:04:00.703 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 16:04:01.397 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 16:04:01.453 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 16:04:01.498 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 16:04:01.790 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 14.974 seconds (JVM running for 16.711)
+2021-11-10 16:04:03.631 [Thread-26] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-10 16:04:03.642 [Thread-26] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-10 16:04:05.175 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 16380 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 16:04:05.175 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 16:04:06.470 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 16:04:06.471 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 16:04:06.477 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-11-10 16:04:06.813 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=18039574-5c55-3240-b857-f4823ad20086
+2021-11-10 16:04:10.301 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 16380 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 16:04:10.301 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 16:04:10.963 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 16:04:10.964 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 16:04:10.973 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-10 16:04:11.134 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-10 16:04:11.689 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 16:04:11.690 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:04:11.691 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 16:04:11.691 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 16:04:11.723 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 16:04:11.723 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1418 ms
+2021-11-10 16:04:11.838 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-11-10 16:04:11.885 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-11-10 16:04:12.315 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2021-11-10 16:04:12.329 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2021-11-10 16:04:12.330 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-11-10 16:04:39.194 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 16380 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 16:04:39.195 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 16:04:40.474 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 16:04:40.474 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 16:04:40.501 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2021-11-10 16:04:40.681 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3501e781-8057-3d9e-848e-295eede2b102
+2021-11-10 16:04:40.905 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 16:04:40.905 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:04:40.906 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 16:04:40.906 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 16:04:40.929 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 16:04:40.929 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1721 ms
+2021-11-10 16:04:41.182 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2021-11-10 16:04:41.224 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2021-11-10 16:04:42.735 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 16:04:42.970 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 16:04:45.421 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:04:45.423 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 16:04:45.963 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 16:04:45.964 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 16:04:45.970 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 16:04:46.017 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 7.468 seconds (JVM running for 60.938)
+2021-11-10 16:04:46.019 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 16:06:25.847 [Thread-40] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2021-11-10 16:06:25.858 [Thread-40] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2021-11-10 16:06:26.826 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 16380 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 16:06:26.826 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 16:06:27.218 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 16:06:27.218 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 16:06:27.227 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-10 16:06:27.280 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=18039574-5c55-3240-b857-f4823ad20086
+2021-11-10 16:06:27.482 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 16:06:27.483 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:06:27.483 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 16:06:27.484 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 16:06:27.513 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 16:06:27.513 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 685 ms
+2021-11-10 16:06:27.623 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2021-11-10 16:06:27.659 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2021-11-10 16:06:28.643 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 16:06:28.898 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 16:06:30.230 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:06:30.233 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 16:06:30.871 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 16:06:30.872 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 16:06:30.876 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 16:06:30.922 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 4.728 seconds (JVM running for 165.843)
+2021-11-10 16:06:30.924 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 16:06:40.839 [http-nio-8202-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-10 16:06:40.840 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-10 16:06:40.841 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-10 16:06:40.876 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 16:06:40.882 [http-nio-8202-exec-1] INFO  c.a.shangyitong.service.impl.RedisServiceImpl - this 1234::321::123
+2021-11-10 16:06:41.990 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 16:07:32.941 [Thread-54] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2021-11-10 16:07:32.948 [Thread-54] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2021-11-10 16:07:33.811 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 16380 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 16:07:33.812 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 16:07:34.248 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 16:07:34.249 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 16:07:34.254 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-11-10 16:07:34.303 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ff85e6b3-043f-3dd4-923c-b03305246d6b
+2021-11-10 16:07:34.483 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 16:07:34.484 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:07:34.485 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 16:07:34.486 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 16:07:34.510 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 16:07:34.511 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 695 ms
+2021-11-10 16:07:34.607 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2021-11-10 16:07:34.629 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2021-11-10 16:07:35.645 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 16:07:35.883 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 16:07:36.930 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:07:36.931 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 16:07:37.513 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 16:07:37.514 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 16:07:37.519 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 16:07:37.555 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 4.349 seconds (JVM running for 232.475)
+2021-11-10 16:07:37.556 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 16:08:27.808 [Thread-64] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2021-11-10 16:08:27.817 [Thread-64] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2021-11-10 16:08:29.316 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 16380 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 16:08:29.316 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 16:08:30.018 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 16:08:30.018 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 16:08:30.024 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-11-10 16:08:30.110 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-10 16:08:30.730 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 16:08:30.731 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:08:30.731 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 16:08:30.734 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 16:08:30.755 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 16:08:30.756 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1437 ms
+2021-11-10 16:08:30.857 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2021-11-10 16:08:30.882 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2021-11-10 16:08:31.130 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2021-11-10 16:08:31.138 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2021-11-10 16:08:31.139 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-11-10 16:08:33.440 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 16380 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-10 16:08:33.441 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-10 16:08:34.233 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 16:08:34.233 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-10 16:08:34.244 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-10 16:08:34.346 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=18039574-5c55-3240-b857-f4823ad20086
+2021-11-10 16:08:34.649 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-10 16:08:34.650 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:08:34.650 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-10 16:08:34.650 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-10 16:08:34.690 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-10 16:08:34.691 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1243 ms
+2021-11-10 16:08:34.808 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2021-11-10 16:08:34.828 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2021-11-10 16:08:35.754 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-10 16:08:36.010 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-10 16:08:37.161 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-10 16:08:37.163 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-10 16:08:37.291 [http-nio-8202-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-10 16:08:37.292 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-10 16:08:37.293 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-10 16:08:38.115 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-10 16:08:38.116 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-10 16:08:38.123 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-10 16:08:38.177 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 5.549 seconds (JVM running for 293.098)
+2021-11-10 16:08:38.178 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-10 16:08:51.021 [http-nio-8202-exec-10] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.RedisServiceImpl.unlikeFromRedis(Long,Long,Long))
+2021-11-10 16:08:51.079 [http-nio-8202-exec-10] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.RedisServiceImpl.unlikeFromRedis(Long,Long,Long))
+2021-11-10 16:08:56.570 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 16:08:56.573 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 16:08:58.838 [http-nio-8202-exec-2] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.RedisServiceImpl.unlikeFromRedis(Long,Long,Long))
+2021-11-10 16:08:58.841 [http-nio-8202-exec-2] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.RedisServiceImpl.unlikeFromRedis(Long,Long,Long))
+2021-11-10 16:10:43.587 [http-nio-8202-exec-3] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-10 16:10:43.780 [http-nio-8202-exec-3] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-10 16:10:49.409 [http-nio-8202-exec-5] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.topicComments(Integer,Long))
+2021-11-10 16:10:49.435 [http-nio-8202-exec-5] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.topicComments(Integer,Long))
+2021-11-10 16:11:00.651 [http-nio-8202-exec-2] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.deleteOneComment(String))
+2021-11-10 16:11:00.666 [http-nio-8202-exec-2] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.deleteOneComment(String))
+2021-11-10 16:11:04.180 [http-nio-8202-exec-8] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 16:11:04.183 [http-nio-8202-exec-8] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.RedisServiceImpl.saveLiked2Redis(Long,Long,Long))
+2021-11-10 16:11:06.810 [http-nio-8202-exec-3] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-10 16:11:06.847 [http-nio-8202-exec-3] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-10 16:15:14.763 [http-nio-8202-exec-8] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-10 16:15:14.779 [http-nio-8202-exec-8] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-10 16:15:18.884 [http-nio-8202-exec-3] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-10 16:15:18.897 [http-nio-8202-exec-3] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-10 16:15:23.592 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-10 16:15:23.610 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))

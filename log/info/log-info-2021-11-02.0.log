@@ -1,0 +1,640 @@
+2021-11-02 10:34:41.806 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 7172 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 10:34:41.812 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 10:34:41.936 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 10:34:41.937 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 10:34:43.843 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 10:34:43.847 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 10:34:43.886 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-11-02 10:34:44.264 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 10:34:45.501 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 10:34:45.528 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:34:45.530 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 10:34:45.531 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 10:34:45.837 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 10:34:45.838 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3900 ms
+2021-11-02 10:34:46.170 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 10:34:47.246 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 10:34:48.337 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 10:34:48.783 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 10:34:51.019 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:34:51.039 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 10:34:51.662 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 10:34:51.716 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 10:34:51.755 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 10:34:52.003 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 11.727 seconds (JVM running for 13.77)
+2021-11-02 10:35:26.303 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 10:35:26.304 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 10:35:26.306 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-02 10:36:51.948 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 8596 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 10:36:51.951 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 10:36:52.003 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 10:36:52.004 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 10:36:53.180 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 10:36:53.182 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 10:36:53.219 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-11-02 10:36:53.504 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 10:36:54.377 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 10:36:54.389 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:36:54.389 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 10:36:54.389 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 10:36:54.579 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 10:36:54.580 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2575 ms
+2021-11-02 10:36:54.792 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 10:36:55.552 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 10:36:56.661 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 10:36:57.024 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 10:36:58.948 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:36:58.970 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 10:36:59.632 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 10:36:59.648 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 10:36:59.681 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 10:36:59.965 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 9.66 seconds (JVM running for 11.103)
+2021-11-02 10:42:56.374 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 5428 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 10:42:56.377 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 10:42:56.429 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 10:42:56.429 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 10:42:57.513 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 10:42:57.516 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 10:42:57.544 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-02 10:42:57.835 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 10:42:58.735 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 10:42:58.745 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:42:58.746 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 10:42:58.747 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 10:42:58.926 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 10:42:58.927 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2497 ms
+2021-11-02 10:42:59.197 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 10:43:00.095 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 10:43:01.117 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 10:43:01.443 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 10:43:03.184 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:43:03.200 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 10:43:03.809 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 10:43:03.825 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 10:43:03.851 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 10:43:04.037 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 8.984 seconds (JVM running for 10.355)
+2021-11-02 10:43:18.462 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 10:43:18.462 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 10:43:18.465 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-11-02 10:44:35.789 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 10004 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 10:44:35.792 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 10:44:35.843 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 10:44:35.843 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 10:44:36.837 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 10:44:36.839 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 10:44:36.866 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-11-02 10:44:37.131 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 10:44:37.922 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 10:44:37.932 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:44:37.933 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 10:44:37.933 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 10:44:38.118 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 10:44:38.119 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2275 ms
+2021-11-02 10:44:38.356 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 10:44:39.188 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 10:44:40.391 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 10:44:40.729 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 10:44:42.394 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:44:42.410 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 10:44:43.023 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 10:44:43.037 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 10:44:43.066 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 10:44:43.243 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 8.768 seconds (JVM running for 10.385)
+2021-11-02 10:44:46.982 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 10:44:46.983 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 10:44:46.987 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-11-02 10:45:27.230 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 10:45:27.239 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))  Not a time-based UUID
+2021-11-02 10:51:14.690 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 8380 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 10:51:14.693 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 10:51:14.749 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 10:51:14.750 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 10:51:15.765 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 10:51:15.768 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 10:51:15.795 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-11-02 10:51:16.055 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 10:51:16.909 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 10:51:16.921 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:51:16.922 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 10:51:16.922 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 10:51:17.103 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 10:51:17.103 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2352 ms
+2021-11-02 10:51:17.314 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 10:51:18.143 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 10:51:19.193 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 10:51:19.572 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 10:51:21.343 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:51:21.358 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 10:51:22.023 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 10:51:22.040 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 10:51:22.070 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 10:51:22.259 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 8.89 seconds (JVM running for 10.266)
+2021-11-02 10:51:34.144 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 10:51:34.144 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 10:51:34.150 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-11-02 10:51:34.226 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 10:51:34.709 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))  
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '332ae406-f6a4-45b6-8544-fc2f848b6c00',
+'顶级评论',
+
+1,
+
+' at line 15
+### The error may exist in com/atguigu/shangyitong/mapper/CommentsTableMapper.java (best guess)
+### The error may involve com.atguigu.shangyitong.mapper.CommentsTableMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO comments_table  ( comment_id, content,  business_id,  message_type, comment_like_count, comment_transpond, comment_collected, root_comment_id, to_comment_id, create_time, update_time, deleted, check )  VALUES  ( ?, ?,  ?,  ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '332ae406-f6a4-45b6-8544-fc2f848b6c00',
+'顶级评论',
+
+1,
+
+' at line 15
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '332ae406-f6a4-45b6-8544-fc2f848b6c00',
+'顶级评论',
+
+1,
+
+' at line 15
+2021-11-02 10:51:48.446 [http-nio-8202-exec-10] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 10:51:48.455 [http-nio-8202-exec-10] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))  
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'a0f30335-626d-42c6-a4f3-c1cee579c0a8',
+'顶级评论',
+
+1,
+
+' at line 15
+### The error may exist in com/atguigu/shangyitong/mapper/CommentsTableMapper.java (best guess)
+### The error may involve com.atguigu.shangyitong.mapper.CommentsTableMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO comments_table  ( comment_id, content,  business_id,  message_type, comment_like_count, comment_transpond, comment_collected, root_comment_id, to_comment_id, create_time, update_time, deleted, check )  VALUES  ( ?, ?,  ?,  ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'a0f30335-626d-42c6-a4f3-c1cee579c0a8',
+'顶级评论',
+
+1,
+
+' at line 15
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'a0f30335-626d-42c6-a4f3-c1cee579c0a8',
+'顶级评论',
+
+1,
+
+' at line 15
+2021-11-02 10:52:11.801 [http-nio-8202-exec-3] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 10:52:11.805 [http-nio-8202-exec-3] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))  
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '8aa8c491-806a-498e-a211-25a326935242',
+'顶级评论',
+
+1,
+
+' at line 15
+### The error may exist in com/atguigu/shangyitong/mapper/CommentsTableMapper.java (best guess)
+### The error may involve com.atguigu.shangyitong.mapper.CommentsTableMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO comments_table  ( comment_id, content,  business_id,  message_type, comment_like_count, comment_transpond, comment_collected, root_comment_id, to_comment_id, create_time, update_time, deleted, check )  VALUES  ( ?, ?,  ?,  ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '8aa8c491-806a-498e-a211-25a326935242',
+'顶级评论',
+
+1,
+
+' at line 15
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '8aa8c491-806a-498e-a211-25a326935242',
+'顶级评论',
+
+1,
+
+' at line 15
+2021-11-02 10:52:23.616 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 10:52:23.622 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))  
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '25295a09-a6a3-4533-99e1-724131e9b7db',
+'顶级评论',
+
+1,
+
+' at line 15
+### The error may exist in com/atguigu/shangyitong/mapper/CommentsTableMapper.java (best guess)
+### The error may involve com.atguigu.shangyitong.mapper.CommentsTableMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO comments_table  ( comment_id, content,  business_id,  message_type, comment_like_count, comment_transpond, comment_collected, root_comment_id, to_comment_id, create_time, update_time, deleted, check )  VALUES  ( ?, ?,  ?,  ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '25295a09-a6a3-4533-99e1-724131e9b7db',
+'顶级评论',
+
+1,
+
+' at line 15
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '25295a09-a6a3-4533-99e1-724131e9b7db',
+'顶级评论',
+
+1,
+
+' at line 15
+2021-11-02 10:53:54.193 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 1340 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 10:53:54.195 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 10:53:54.246 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 10:53:54.247 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 10:53:55.218 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 10:53:55.221 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 10:53:55.244 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-02 10:53:55.511 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 10:53:56.311 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 10:53:56.321 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:53:56.322 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 10:53:56.322 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 10:53:56.503 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 10:53:56.504 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2257 ms
+2021-11-02 10:53:56.721 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 10:53:57.488 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 10:53:58.460 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 10:53:58.779 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 10:54:00.413 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:54:00.428 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 10:54:01.037 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 10:54:01.055 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 10:54:01.083 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 10:54:01.262 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 8.429 seconds (JVM running for 9.733)
+2021-11-02 10:54:07.250 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 10:54:07.250 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 10:54:07.252 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-02 10:54:07.336 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 10:54:07.662 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))  
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'a5169faf-901f-4ab1-8ca5-5d9674d8c5d4',
+'顶级评论',
+
+1,
+
+' at line 15
+### The error may exist in com/atguigu/shangyitong/mapper/CommentsTableMapper.java (best guess)
+### The error may involve com.atguigu.shangyitong.mapper.CommentsTableMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO comments_table  ( comment_id, content,  business_id,  message_type, comment_like_count, comment_transpond, comment_collected, root_comment_id, to_comment_id, create_time, update_time, deleted, check )  VALUES  ( ?, ?,  ?,  ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'a5169faf-901f-4ab1-8ca5-5d9674d8c5d4',
+'顶级评论',
+
+1,
+
+' at line 15
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'a5169faf-901f-4ab1-8ca5-5d9674d8c5d4',
+'顶级评论',
+
+1,
+
+' at line 15
+2021-11-02 10:54:16.491 [http-nio-8202-exec-8] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 10:54:16.499 [http-nio-8202-exec-8] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))  
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '409def0a-0e4a-4162-bc07-ac97f01e81b1',
+'顶级评论',
+
+1,
+
+' at line 15
+### The error may exist in com/atguigu/shangyitong/mapper/CommentsTableMapper.java (best guess)
+### The error may involve com.atguigu.shangyitong.mapper.CommentsTableMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO comments_table  ( comment_id, content,  business_id,  message_type, comment_like_count, comment_transpond, comment_collected, root_comment_id, to_comment_id, create_time, update_time, deleted, check )  VALUES  ( ?, ?,  ?,  ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '409def0a-0e4a-4162-bc07-ac97f01e81b1',
+'顶级评论',
+
+1,
+
+' at line 15
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '409def0a-0e4a-4162-bc07-ac97f01e81b1',
+'顶级评论',
+
+1,
+
+' at line 15
+2021-11-02 10:55:58.863 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 10:55:58.869 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))  
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'b36cd7e1-a646-47e2-9d02-e0752d17b8b4',
+'顶级评论',
+
+1,
+
+' at line 15
+### The error may exist in com/atguigu/shangyitong/mapper/CommentsTableMapper.java (best guess)
+### The error may involve com.atguigu.shangyitong.mapper.CommentsTableMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO comments_table  ( comment_id, content,  business_id,  message_type, comment_like_count, comment_transpond, comment_collected, root_comment_id, to_comment_id, create_time, update_time, deleted, check )  VALUES  ( ?, ?,  ?,  ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'b36cd7e1-a646-47e2-9d02-e0752d17b8b4',
+'顶级评论',
+
+1,
+
+' at line 15
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'b36cd7e1-a646-47e2-9d02-e0752d17b8b4',
+'顶级评论',
+
+1,
+
+' at line 15
+2021-11-02 10:56:02.868 [http-nio-8202-exec-10] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 10:56:02.876 [http-nio-8202-exec-10] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))  
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '96d07e37-bb4d-424b-a094-3d58b880d163',
+'顶级评论',
+
+1,
+
+' at line 15
+### The error may exist in com/atguigu/shangyitong/mapper/CommentsTableMapper.java (best guess)
+### The error may involve com.atguigu.shangyitong.mapper.CommentsTableMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO comments_table  ( comment_id, content,  business_id,  message_type, comment_like_count, comment_transpond, comment_collected, root_comment_id, to_comment_id, create_time, update_time, deleted, check )  VALUES  ( ?, ?,  ?,  ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '96d07e37-bb4d-424b-a094-3d58b880d163',
+'顶级评论',
+
+1,
+
+' at line 15
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( '96d07e37-bb4d-424b-a094-3d58b880d163',
+'顶级评论',
+
+1,
+
+' at line 15
+2021-11-02 10:57:25.145 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4688 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 10:57:25.148 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 10:57:25.200 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 10:57:25.200 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 10:57:26.178 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 10:57:26.181 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 10:57:26.208 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-02 10:57:26.477 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 10:57:27.325 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 10:57:27.336 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:57:27.337 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 10:57:27.338 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 10:57:27.511 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 10:57:27.512 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2311 ms
+2021-11-02 10:57:27.739 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 10:57:28.646 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 10:57:29.730 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 10:57:30.072 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 10:57:31.836 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:57:31.853 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 10:57:32.484 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 10:57:32.501 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 10:57:32.531 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 10:57:32.725 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 8.766 seconds (JVM running for 10.178)
+2021-11-02 10:57:37.795 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 10:57:37.795 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 10:57:37.797 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-02 10:57:44.653 [http-nio-8202-exec-5] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 10:57:44.769 [http-nio-8202-exec-5] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------异常通知----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))  
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'aa777c47-24c0-4378-9092-772f7d956ad3',
+'顶级评论',
+123,
+' at line 15
+### The error may exist in com/atguigu/shangyitong/mapper/CommentsTableMapper.java (best guess)
+### The error may involve com.atguigu.shangyitong.mapper.CommentsTableMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO comments_table  ( comment_id, content, user_id, business_id, type, message_type, comment_like_count, comment_transpond, comment_collected, root_comment_id, to_comment_id, create_time, update_time, deleted, check )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'aa777c47-24c0-4378-9092-772f7d956ad3',
+'顶级评论',
+123,
+' at line 15
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'check )  VALUES  ( 'aa777c47-24c0-4378-9092-772f7d956ad3',
+'顶级评论',
+123,
+' at line 15
+2021-11-02 10:59:07.169 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 10100 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 10:59:07.171 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 10:59:07.220 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 10:59:07.221 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 10:59:08.197 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 10:59:08.199 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 10:59:08.222 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-02 10:59:08.483 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 10:59:09.284 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 10:59:09.293 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:59:09.294 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 10:59:09.294 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 10:59:09.471 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 10:59:09.471 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2250 ms
+2021-11-02 10:59:09.685 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 10:59:10.439 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 10:59:11.419 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 10:59:11.733 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 10:59:13.387 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 10:59:13.404 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 10:59:14.003 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 10:59:14.018 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 10:59:14.048 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 10:59:14.225 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 8.654 seconds (JVM running for 10.065)
+2021-11-02 10:59:21.750 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 10:59:21.750 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 10:59:21.752 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-02 10:59:28.481 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 10:59:28.699 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:01:21.065 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 13272 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 11:01:21.067 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 11:01:21.120 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 11:01:21.120 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 11:01:22.169 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 11:01:22.172 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 11:01:22.198 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-02 11:01:22.522 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 11:01:23.409 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 11:01:23.419 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:01:23.420 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 11:01:23.420 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 11:01:23.607 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 11:01:23.607 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2486 ms
+2021-11-02 11:01:23.844 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 11:01:24.643 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 11:01:25.685 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 11:01:26.007 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 11:01:27.808 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:01:27.824 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 11:01:28.527 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 11:01:28.543 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 11:01:28.572 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 11:01:28.764 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 9.223 seconds (JVM running for 10.678)
+2021-11-02 11:02:20.076 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 11:02:20.076 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 11:02:20.082 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-11-02 11:02:20.165 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:02:20.469 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:02:27.116 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:02:27.126 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:04:54.204 [http-nio-8202-exec-10] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:04:54.214 [http-nio-8202-exec-10] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:06:04.611 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 18228 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 11:06:04.614 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 11:06:04.664 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 11:06:04.664 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 11:06:05.838 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 11:06:05.841 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 11:06:05.872 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-11-02 11:06:06.170 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 11:06:07.031 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 11:06:07.040 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:06:07.041 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 11:06:07.042 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 11:06:07.208 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 11:06:07.208 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2543 ms
+2021-11-02 11:06:07.466 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 11:06:08.260 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 11:06:09.296 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 11:06:09.632 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 11:06:11.636 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:06:11.658 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 11:06:12.329 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 11:06:12.347 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 11:06:12.378 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 11:06:12.589 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 9.5 seconds (JVM running for 10.928)
+2021-11-02 11:06:13.327 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 11:06:13.327 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 11:06:13.329 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-02 11:06:33.423 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:06:33.525 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:06:43.755 [http-nio-8202-exec-9] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:06:43.774 [http-nio-8202-exec-9] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:06:49.073 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:06:49.083 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:07:03.189 [http-nio-8202-exec-5] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.topicComments(Integer,Long))
+2021-11-02 11:07:03.336 [http-nio-8202-exec-5] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.topicComments(Integer,Long))
+2021-11-02 11:13:21.607 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 15592 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 11:13:21.610 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 11:13:21.665 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 11:13:21.665 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 11:13:23.683 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 11:13:23.686 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 11:13:23.713 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-02 11:13:24.025 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 11:13:24.955 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 11:13:24.964 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:13:24.964 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 11:13:24.965 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 11:13:25.204 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 11:13:25.205 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3539 ms
+2021-11-02 11:13:25.442 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 11:13:32.278 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 15756 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 11:13:32.281 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 11:13:32.332 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 11:13:32.333 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 11:13:33.318 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 11:13:33.321 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 11:13:33.347 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-02 11:13:33.594 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 11:13:34.421 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 11:13:34.431 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:13:34.431 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 11:13:34.431 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 11:13:34.593 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 11:13:34.594 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2261 ms
+2021-11-02 11:13:34.817 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 11:13:35.588 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 11:13:36.626 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 11:13:36.956 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 11:13:38.694 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:13:38.712 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 11:13:39.314 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 11:13:39.337 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 11:13:39.375 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 11:13:39.576 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 8.607 seconds (JVM running for 9.938)
+2021-11-02 11:13:47.441 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 11:13:47.441 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 11:13:47.443 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-02 11:14:01.626 [http-nio-8202-exec-5] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-02 11:14:01.745 [http-nio-8202-exec-5] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-02 11:14:07.343 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-02 11:14:07.353 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-02 11:20:12.599 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 15440 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 11:20:12.602 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 11:20:12.656 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 11:20:12.656 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 11:20:13.622 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 11:20:13.624 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 11:20:13.649 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-02 11:20:13.916 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 11:20:14.721 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 11:20:14.731 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:20:14.732 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 11:20:14.732 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 11:20:14.896 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 11:20:14.897 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2240 ms
+2021-11-02 11:20:15.119 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 11:20:15.962 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 11:20:16.926 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 11:20:17.250 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 11:20:19.046 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:20:19.063 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 11:20:19.688 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 11:20:19.705 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 11:20:19.739 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 11:20:19.956 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 8.63 seconds (JVM running for 10.027)
+2021-11-02 11:20:26.927 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 11:20:26.927 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 11:20:26.930 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-11-02 11:21:08.942 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:21:09.044 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:21:13.957 [http-nio-8202-exec-2] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:21:13.977 [http-nio-8202-exec-2] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:21:20.618 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:21:20.636 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.publishComments(CommentsVO))
+2021-11-02 11:21:37.791 [http-nio-8202-exec-5] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.deleteOneComment(String))
+2021-11-02 11:21:37.851 [http-nio-8202-exec-5] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.deleteOneComment(String))
+2021-11-02 11:22:08.270 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 15228 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 11:22:08.273 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 11:22:08.327 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 11:22:08.328 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 11:22:09.297 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 11:22:09.299 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 11:22:09.326 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-02 11:22:09.584 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 11:22:10.420 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 11:22:10.430 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:22:10.430 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 11:22:10.431 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 11:22:10.606 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 11:22:10.607 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2279 ms
+2021-11-02 11:22:10.846 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 11:22:11.784 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 11:22:12.788 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 11:22:13.107 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 11:22:14.979 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:22:14.999 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 11:22:15.617 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 11:22:15.633 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 11:22:15.662 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 11:22:15.861 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 8.892 seconds (JVM running for 10.191)
+2021-11-02 11:22:21.991 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 11:22:21.991 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 11:22:21.996 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-11-02 11:22:25.452 [http-nio-8202-exec-2] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.deleteOneComment(String))
+2021-11-02 11:22:25.569 [http-nio-8202-exec-2] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(Integer com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.deleteOneComment(String))
+2021-11-02 11:22:36.868 [http-nio-8202-exec-7] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-02 11:22:36.907 [http-nio-8202-exec-7] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-02 11:22:43.741 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.topicComments(Integer,Long))
+2021-11-02 11:22:43.756 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.topicComments(Integer,Long))
+2021-11-02 11:24:07.848 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 11676 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-02 11:24:07.850 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-02 11:24:07.901 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-02 11:24:07.901 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-02 11:24:08.869 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-02 11:24:08.872 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-02 11:24:08.901 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-02 11:24:09.181 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-02 11:24:10.041 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-02 11:24:10.050 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:24:10.051 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-02 11:24:10.052 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-02 11:24:10.230 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-02 11:24:10.232 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2330 ms
+2021-11-02 11:24:10.477 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-02 11:24:11.284 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-02 11:24:12.342 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-02 11:24:12.729 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-02 11:24:14.547 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-02 11:24:14.563 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-02 11:24:15.189 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-02 11:24:15.205 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-02 11:24:15.233 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-02 11:24:15.413 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 8.874 seconds (JVM running for 10.304)
+2021-11-02 15:35:37.839 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-02 15:35:37.842 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-02 15:35:37.903 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 59 ms
+2021-11-02 15:35:38.148 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-02 15:35:39.012 [http-nio-8202-exec-1] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-02 15:35:43.010 [http-nio-8202-exec-3] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-02 15:35:43.061 [http-nio-8202-exec-3] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))

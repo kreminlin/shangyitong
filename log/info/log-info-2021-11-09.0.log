@@ -1,0 +1,29 @@
+2021-11-09 22:46:02.541 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 4828 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-09 22:46:02.546 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-09 22:46:02.601 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-09 22:46:02.602 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-09 22:46:04.230 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 22:46:04.233 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-09 22:46:04.257 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-09 22:46:04.537 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-09 22:46:05.594 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-09 22:46:05.604 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-09 22:46:05.604 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-09 22:46:05.605 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-09 22:46:05.804 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-09 22:46:05.805 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3202 ms
+2021-11-09 22:46:06.087 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-09 22:46:06.960 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-09 22:46:08.132 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-09 22:46:08.534 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-09 22:46:10.513 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-09 22:46:10.531 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-09 22:46:11.039 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-09 22:46:11.081 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-09 22:46:11.118 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-09 22:46:11.424 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 10.204 seconds (JVM running for 11.545)
+2021-11-09 22:46:26.145 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-09 22:46:26.145 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-09 22:46:26.148 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-09 22:46:39.179 [http-nio-8202-exec-8] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-09 22:46:39.414 [http-nio-8202-exec-8] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))

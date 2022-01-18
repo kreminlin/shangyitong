@@ -1,0 +1,143 @@
+2021-11-03 17:13:27.882 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 16636 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-03 17:13:27.889 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-03 17:13:27.955 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-03 17:13:27.956 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-03 17:13:30.097 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-03 17:13:30.101 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-03 17:13:30.146 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2021-11-03 17:13:30.656 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-03 17:13:31.913 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-03 17:13:31.939 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-03 17:13:31.941 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-03 17:13:31.941 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03 17:13:32.174 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-03 17:13:32.174 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4217 ms
+2021-11-03 17:13:32.506 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-03 17:13:33.579 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-03 17:13:35.439 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-03 17:13:35.817 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-03 17:13:39.407 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-03 17:13:39.458 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-03 17:13:40.042 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-03 17:13:40.063 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-03 17:13:40.123 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-03 17:13:40.437 [restartedMain] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 14.073 seconds (JVM running for 16.041)
+2021-11-03 17:18:20.574 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03 17:18:20.575 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-03 17:18:20.579 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-11-03 17:18:28.036 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-03 17:18:28.266 [http-nio-8202-exec-4] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.commentsOfTopic(Integer,String))
+2021-11-03 17:18:57.393 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知前----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.topicComments(Integer,Long))
+2021-11-03 17:18:57.408 [http-nio-8202-exec-6] INFO  com.atguigu.shangyitong.aspect.CheckUserAspect - ---------------环绕通知后----------------execution(List com.atguigu.shangyitong.service.impl.CommentsTableServiceImpl.topicComments(Integer,Long))
+2021-11-03 17:42:57.488 [main] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 16248 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-03 17:42:57.515 [main] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-03 17:42:57.715 [main] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-03 17:42:57.716 [main] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-03 17:43:02.122 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-03 17:43:02.129 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-03 17:43:02.243 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2021-11-03 17:43:02.804 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-03 17:43:05.196 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-03 17:43:05.251 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-03 17:43:05.252 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-03 17:43:05.253 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03 17:43:05.484 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-03 17:43:05.484 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7767 ms
+2021-11-03 17:43:06.473 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-03 17:43:07.533 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-03 17:43:10.128 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-03 17:43:10.641 [main] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-03 17:43:14.214 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-03 17:43:14.367 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-03 17:43:15.021 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-03 17:43:15.081 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-03 17:43:15.200 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-03 17:43:15.801 [main] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 21.676 seconds (JVM running for 40.874)
+2021-11-03 17:50:03.319 [main] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 19348 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-03 17:50:03.322 [main] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-03 17:50:03.435 [main] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-03 17:50:03.436 [main] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-03 17:50:05.881 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-03 17:50:05.887 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-03 17:50:05.930 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-11-03 17:50:06.438 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-03 17:50:08.381 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-03 17:50:08.483 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-03 17:50:08.484 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-03 17:50:08.485 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03 17:50:08.717 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-03 17:50:08.718 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5281 ms
+2021-11-03 17:50:09.103 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-03 17:50:09.476 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-03 17:50:11.153 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-03 17:50:11.533 [main] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-03 17:50:13.452 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-03 17:50:13.480 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-03 17:50:14.084 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-03 17:50:14.132 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-03 17:50:14.187 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-03 17:50:14.532 [main] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 16.553 seconds (JVM running for 22.761)
+2021-11-03 17:50:43.616 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03 17:50:43.617 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-03 17:50:43.621 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-11-03 17:51:05.087 [main] INFO  com.atguigu.shangyitong.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_261 on DESKTOP-18736GT with PID 9048 (F:\shangyitong\service\service-hosp\target\classes started by asus in F:\shangyitong)
+2021-11-03 17:51:05.096 [main] INFO  com.atguigu.shangyitong.ServiceHospApplication - The following profiles are active: dev
+2021-11-03 17:51:05.282 [main] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-03 17:51:05.283 [main] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-03 17:51:06.729 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-03 17:51:06.732 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-03 17:51:06.764 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-11-03 17:51:07.105 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e71c02ea-639c-3fab-a546-40873776eb3a
+2021-11-03 17:51:08.300 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8202 (http)
+2021-11-03 17:51:08.314 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+2021-11-03 17:51:08.315 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-03 17:51:08.316 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03 17:51:08.473 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-03 17:51:08.473 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3188 ms
+2021-11-03 17:51:08.790 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-03 17:51:08.983 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-03 17:51:10.334 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-03 17:51:10.706 [main] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-11-03 17:51:12.562 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+2021-11-03 17:51:12.589 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8202 (http) with context path ''
+2021-11-03 17:51:13.179 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-03 17:51:13.201 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-03 17:51:13.242 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-03 17:51:13.490 [main] INFO  com.atguigu.shangyitong.ServiceHospApplication - Started ServiceHospApplication in 10.172 seconds (JVM running for 15.424)
+2021-11-03 17:51:24.784 [http-nio-8202-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03 17:51:24.784 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-03 17:51:24.789 [http-nio-8202-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-11-03 17:52:23.205 [http-nio-8202-exec-3] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-03 17:52:23.218 [http-nio-8202-exec-3] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-11-03 17:52:23.451 [http-nio-8202-exec-3] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-03 17:52:24.346 [http-nio-8202-exec-6] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-03 17:52:24.371 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteOneCommentsUsingPOST_1
+2021-11-03 17:52:24.386 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllCommentsOfTopicUsingPOST_1
+2021-11-03 17:52:24.394 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTopicOfBusinessUsingPOST_1
+2021-11-03 17:52:24.405 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: publishOneCommentUsingPOST_1
+2021-11-03 17:52:24.414 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: batchRemoveHospitalSetUsingDELETE_1
+2021-11-03 17:52:24.423 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2021-11-03 17:52:24.438 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findPageHospSetUsingPOST_1
+2021-11-03 17:52:24.454 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: lockHospitalSetUsingPUT_1
+2021-11-03 17:52:24.459 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeHospSetUsingDELETE_1
+2021-11-03 17:52:24.468 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveHospitalSetUsingPOST_1
+2021-11-03 17:52:24.474 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: sendKeyUsingPUT_1
+2021-11-03 17:52:24.478 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateHospitalSetUsingPOST_1
+2021-11-03 17:52:24.484 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: runUsingPOST_1
+2021-11-03 17:52:34.590 [http-nio-8202-exec-4] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-03 17:52:34.600 [http-nio-8202-exec-4] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-03 17:52:34.673 [http-nio-8202-exec-4] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-03 17:52:35.362 [http-nio-8202-exec-6] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-03 17:52:35.377 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteOneCommentsUsingPOST_2
+2021-11-03 17:52:35.380 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllCommentsOfTopicUsingPOST_2
+2021-11-03 17:52:35.383 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTopicOfBusinessUsingPOST_2
+2021-11-03 17:52:35.392 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: publishOneCommentUsingPOST_2
+2021-11-03 17:52:35.396 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: batchRemoveHospitalSetUsingDELETE_2
+2021-11-03 17:52:35.400 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2021-11-03 17:52:35.408 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findPageHospSetUsingPOST_2
+2021-11-03 17:52:35.412 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: lockHospitalSetUsingPUT_2
+2021-11-03 17:52:35.414 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeHospSetUsingDELETE_2
+2021-11-03 17:52:35.417 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveHospitalSetUsingPOST_2
+2021-11-03 17:52:35.423 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: sendKeyUsingPUT_2
+2021-11-03 17:52:35.431 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateHospitalSetUsingPOST_2
+2021-11-03 17:52:35.440 [http-nio-8202-exec-6] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: runUsingPOST_2
