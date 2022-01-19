@@ -85,7 +85,7 @@ public class HospitalController {
 //        Random random = new Random();
 //        hospitalSet.setSignKey(MD5.encrypt(System.currentTimeMillis() + "" + random.nextInt(1000)));
 
-        if(bindingResult.hasErrors()){
+        if (bindingResult.hasErrors()) {
             return bindingResult.getFieldError().getDefaultMessage();
         }
         //调用service

@@ -209,3 +209,31 @@ Action:
 
 Consider defining a bean of type 'com.atguigu.shangyitong.service.RedisService' in your configuration.
 
+2022-01-19 13:48:08.229 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8202 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8202 or configure this application to listen on another port.
+
+2022-01-19 13:48:27.144 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8202 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8202 or configure this application to listen on another port.
+
